@@ -1,0 +1,13 @@
+/* filepath: /C:/Users/bourz/OneDrive/Desktop/next_app-gestion-pharmacy/gestion_pharmacy/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.9; }
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 2s ease-in-out infinite;
+  }
